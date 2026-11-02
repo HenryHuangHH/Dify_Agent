@@ -1,4 +1,4 @@
-# difyagent
+# Dify_Agent
 
 A Claude Code skill that sends text to a [Dify](https://dify.ai) app for summarizing.
 
@@ -38,4 +38,3 @@ node .claude/skills/agent/agent.js "summarize this: <your text>"
 
 - `401`: the key is wrong. It should start with `app-`.
 - `model_currently_not_support`: your Dify app uses a model your plan doesn't include. Pick another model in Dify and publish the app again.
-# Dify_Agent
